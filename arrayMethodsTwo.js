@@ -111,7 +111,10 @@ fruits.forEach((el) => {
 */
 
 // COPY AND PASTE THE RESULT FROM YOUR CONSOLE (NODE CONSOLE IS YOUR TERMINAL) HERE (AS A MULTI LINES COMMENT)
-
+// The fruit with index 0 is neither apple or orange
+// The fruit with index 1 is an orange
+// The fruit with index 2 is neither apple or orange
+// The fruit with index 3 is an apple.
 
 
 ////////// PROBLEM 5 //////////
@@ -156,7 +159,6 @@ let foods = [
 */
 
 // CODE HERE
-
-
+let priceFoodsRice = foods.filter((el) => el.tags.includes("rice")).reduce((add, el) => add + el.price, 0);
+console.log(priceFoodsRice)
 // THE TOTAL
-
